@@ -1,3 +1,9 @@
+Grupo:
+
+​	Jonathan Sneider Poveda Abril
+
+
+
 CONSULTA SOBRE UNA TABLA 
 
 
@@ -441,6 +447,5 @@ WHERE
 4. Devuelve un listado que muestre solamente los empleados que no tienen
    una oficina asociada.
 
-```
 ```
 
