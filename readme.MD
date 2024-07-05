@@ -447,5 +447,34 @@ WHERE
 4. Devuelve un listado que muestre solamente los empleados que no tienen
    una oficina asociada.
 
+```sql
+
+SELECT 
+    e.nombre AS nombre_empleado
+FROM 
+    empleados e
+LEFT JOIN 
+    pagos ON Codigo_emplead = p.codigo_empleado
+WHERE 
+    p.codigo_oficina IS NULL;
+```
+
+
+
+5. Devuelve un listado que muestre solamente los empleados que no tienen un
+   cliente asociado.
+
+
+
+```sql
+
+SELECT 
+    e.nombre AS nombre_empleado
+FROM 
+    empleados e
+LEFT JOIN 
+    pagos ON Codigo_empleados = p.codigo_empleado
+WHERE 
+    p.codigo_cliente IS NULL;
 ```
 
